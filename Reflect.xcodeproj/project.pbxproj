@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		FC043375309B435600FC8491 /* New application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC043375309B435600FC8491 /* Reflect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reflect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC84418130A45C5700168E7E /* Reflect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Reflect-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +33,7 @@
 		FC04336C309B435600FC8491 = {
 			isa = PBXGroup;
 			children = (
+				FC84418130A45C5700168E7E /* Reflect-Info.plist */,
 				FC043377309B435600FC8491 /* New application */,
 				FC043376309B435600FC8491 /* Products */,
 			);
@@ -40,7 +42,7 @@
 		FC043376309B435600FC8491 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC043375309B435600FC8491 /* New application.app */,
+				FC043375309B435600FC8491 /* Reflect.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +50,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC043374309B435600FC8491 /* New application */ = {
+		FC043374309B435600FC8491 /* Reflect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC043380309B435800FC8491 /* Build configuration list for PBXNativeTarget "New application" */;
+			buildConfigurationList = FC043380309B435800FC8491 /* Build configuration list for PBXNativeTarget "Reflect" */;
 			buildPhases = (
 				FC043371309B435600FC8491 /* Sources */,
 				FC043372309B435600FC8491 /* Frameworks */,
@@ -63,11 +65,11 @@
 			fileSystemSynchronizedGroups = (
 				FC043377309B435600FC8491 /* New application */,
 			);
-			name = "New application";
+			name = Reflect;
 			packageProductDependencies = (
 			);
 			productName = "New application";
-			productReference = FC043375309B435600FC8491 /* New application.app */;
+			productReference = FC043375309B435600FC8491 /* Reflect.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +87,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FC043370309B435600FC8491 /* Build configuration list for PBXProject "New application" */;
+			buildConfigurationList = FC043370309B435600FC8491 /* Build configuration list for PBXProject "Reflect" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +101,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC043374309B435600FC8491 /* New application */,
+				FC043374309B435600FC8491 /* Reflect */,
 			);
 		};
 /* End PBXProject section */
@@ -178,7 +180,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -236,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -251,11 +253,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "New application/New application.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YY6J4F3QB8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Reflect-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Reflect;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -283,11 +288,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "New application/New application.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YY6J4F3QB8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Reflect-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Reflect;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC043370309B435600FC8491 /* Build configuration list for PBXProject "New application" */ = {
+		FC043370309B435600FC8491 /* Build configuration list for PBXProject "Reflect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC04337E309B435800FC8491 /* Debug */,
@@ -322,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC043380309B435800FC8491 /* Build configuration list for PBXNativeTarget "New application" */ = {
+		FC043380309B435800FC8491 /* Build configuration list for PBXNativeTarget "Reflect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC043381309B435800FC8491 /* Debug */,
